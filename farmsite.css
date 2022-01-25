@@ -1,0 +1,224 @@
+body {
+  margin: 0%;
+  font-family: cursive;
+  background-color: rgb(31, 30, 30);
+}
+.topnav {
+  background-color: chocolate;
+  padding: 5px;
+  margin: 0%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.topnav > a {
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: cornsilk;
+  font-weight: 900;
+  text-size-adjust: 200%;
+  padding-bottom: 30px;
+  margin: 0%;
+}
+.page-1 {
+  margin: 0%;
+  background-image: url(back12.jpg);
+  background-size: cover;
+}
+#line-1 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 5px;
+  padding-top: 30px;
+  color: whitesmoke;
+  font-weight: 900;
+  text-shadow: 0 0 6px black;
+}
+#line-2 {
+  text-align: center;
+  font-size: 500%;
+  margin-bottom: 00px;
+  color: whitesmoke;
+  font-weight: 900;
+  text-shadow: 0 0 6px black;
+}
+#line-3 {
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  color: whitesmoke;
+  font-weight: 900;
+  text-shadow: 0 0 6px black;
+}
+#line-4 {
+  text-align: center;
+}
+#line-4 > a {
+  text-align: center;
+  background-color: chocolate;
+  border-radius: 50px;
+  font-size: 175%;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#line-4 > a:hover {
+  background-color: coral;
+}
+#line-5 {
+  background-color: black;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 20px;
+  padding: 40px;
+  color: whitesmoke;
+}
+#last-6 {
+  margin-bottom: 0px;
+  margin-block-end: 0em;
+}
+.act {
+  background-color: black;
+  padding: 3%;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 300%;
+}
+.side1 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1fr);
+  grid-auto-rows: minmax(400px, auto);
+}
+#elemt1 {
+  background-image: url(side1.jpg);
+  background-size: cover;
+}
+#elemt2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: chocolate;
+  font-size: 150%;
+  color: white;
+  padding: 40px;
+}
+.side2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
+  grid-auto-rows: minmax(400px, auto);
+  margin-top: 20px;
+}
+#king1 {
+  background-color: chocolate;
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  padding: 40px;
+}
+#king2 {
+  background-image: url(side2.jpg);
+  background-size: cover;
+}
+.side3 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1fr);
+  grid-auto-rows: minmax(400px, auto);
+  margin-top: 20px;
+}
+#queen1 {
+  background-image: url(side3.jpg);
+  background-size: cover;
+}
+#queen2 {
+  background-color: chocolate;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  padding: 40px;
+}
+.side4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
+  grid-auto-rows: minmax(400px, auto);
+  margin-top: 20px;
+}
+#prince1 {
+  background-color: chocolate;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  padding: 40px;
+}
+#prince2 {
+  background-image: url(side4.jpg);
+  background-size: cover;
+}
+.side5 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1fr);
+  grid-auto-rows: minmax(400px, auto);
+  margin-top: 20px;
+}
+#princess1 {
+  background-image: url(side5.jpg);
+  background-size: cover;
+}
+#princess2 {
+  background-color: chocolate;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  padding: 40px;
+}
+.lastpage {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: black;
+  grid-auto-rows: minmax(auto, auto);
+  padding-left: 100px;
+  padding-right: 100px;
+  grid-auto-columns: minmax(400px, 450px);
+  grid-column-gap: 20px;
+}
+.lastpage > div {
+  text-align: center;
+  color: white;
+  border: 3px solid whitesmoke;
+  border-top: none;
+  border-bottom: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#l1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-top: none;
+  border-bottom: none;
+}
+#l2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-top: none;
+  border-bottom: none;
+}
+#l3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  border-top: none;
+  border-bottom: none;
+}
+#backtop {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+#backto1 {
+  height: 50px;
+  width: 50px;
+}
